@@ -1,0 +1,301 @@
+* {
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	scroll-padding-top: 13rem;
+}
+
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.6rem;
+}
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+}
+
+.logo {
+	height: 10vh;
+	transition: 0.2s;
+}
+
+/* navigacja */
+
+nav {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.navbar-toggler {
+	font-size: 3rem;
+}
+
+.navbar-brand {
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: none;
+}
+
+/* header */
+
+header {
+	font-size: 2rem;
+}
+
+.carousel-item {
+	position: relative;
+	height: 88vh;
+	z-index: 0;
+}
+
+.carousel-img-one {
+	background-image: url(img/h1.jpg);
+	background-color: #cccccc;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.carousel-img-two {
+	background-image: url(img/h2.jpg);
+	background-color: #cccccc;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.carousel-img-three {
+	background-image: url(img/h3.jpg);
+	background-color: #cccccc;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media (max-width: 767.9px) {
+	.d-sm-block {
+		font-size: 1.5rem;
+	}
+}
+
+main {
+	margin-top: auto;
+	margin-bottom: auto;
+	background-color: rgb(255, 255, 255);
+}
+
+.img1 {
+	height: 50%;
+	width: 50%;
+}
+
+.home-boxes {
+	padding: 5rem;
+}
+
+.home-boxes p {
+	font-size: 1.5rem;
+}
+
+.img2 {
+	height: 50%;
+	width: 50%;
+}
+
+.benefit h2 {
+	text-transform: uppercase;
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+
+.losses h2 {
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.opinie {
+	background-color: rgba(168, 183, 230, 0.733);
+}
+
+.cardd {
+	width: 100%;
+	height: 100%;
+}
+
+.accordionph {
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+
+.accordionph::after {
+	color: #000;
+}
+
+.h1text {
+	background-color: rgba(221, 201, 201, 0.112);
+	padding: 2rem;
+}
+
+.h1text h1 {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+}
+
+.h1textlose {
+	margin-top: 5rem;
+	background-color: rgba(221, 201, 201, 0.112);
+	padding: 2rem;
+}
+
+.h1textlose h1 {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/* index do albumu */
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+.b-example-divider {
+	height: 3rem;
+	background-color: rgba(0, 0, 0, 0.1);
+	border: solid rgba(0, 0, 0, 0.15);
+	border-width: 1px 0;
+	box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+	flex-shrink: 0;
+	width: 1.5rem;
+	height: 100vh;
+}
+
+.bi {
+	vertical-align: -0.125em;
+	fill: currentColor;
+}
+
+.nav-scroller {
+	position: relative;
+	z-index: 2;
+	height: 2.75rem;
+	overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+	display: flex;
+	flex-wrap: nowrap;
+	padding-bottom: 1rem;
+	margin-top: -1px;
+	overflow-x: auto;
+	text-align: center;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+}
+
+.b-example-divider {
+	height: 3rem;
+	background-color: rgba(26, 42, 71, 0.2);
+	border: solid rgba(0, 0, 0, 0.15);
+	border-width: 1px 0;
+	box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.person {
+	width: 100%;
+	height: 40rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.agnieszka {
+	background-position-y: 35%;
+	background-image: url(img/Agnieszka\ Wróblewska.jpg);
+}
+
+.dorota {
+	background-position-y: 45%;
+
+	background-image: url(img/Dorota\ Kotkowska.jpg);
+}
+
+.katarzyna {
+	background-position-x: 60%;
+	background-position-y: 45%;
+	background-image: url(img/Katarzyna\ Szymanik.jpg);
+}
+
+@media (max-width: 991.98px) {
+	.dorota {
+		background-position-x: 45%;
+	}
+}
+
+.marzena {
+	background-position-x: 60%;
+	background-position-y: 0%;
+	background-image: url(img/Marzena\ Krawczyk\ 1.jpg);
+}
+
+.accordion-button[aria-expanded='true'] {
+	color: rgb(0, 0, 0);
+	background-color: rgba(5, 187, 238, 0.219);
+}
+
+.accordiontext {
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+
+.video {
+	margin-top: 17rem;
+	margin-bottom: 5rem;
+	background-color: rgba(0, 0, 0, 0.956);
+}
+
+.video-container {
+	overflow: hidden;
+	position: relative;
+	width: 80%;
+	margin: auto;
+}
+
+.video-container::after {
+	padding-top: 56.25%;
+	display: block;
+	content: '';
+}
+
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
