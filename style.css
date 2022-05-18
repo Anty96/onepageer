@@ -277,25 +277,46 @@ main {
 	margin-top: 17rem;
 	margin-bottom: 5rem;
 	background-color: rgba(0, 0, 0, 0.956);
-}
-
-.video-container {
-	overflow: hidden;
-	position: relative;
-	width: 80%;
+	width: 50%;
+	display: block;
 	margin: auto;
 }
 
-.video-container::after {
-	padding-top: 56.25%;
-	display: block;
-	content: '';
+@media (max-width: 991.98px) {
+	.video {
+		width: 100%;
+	}
 }
 
-.video-container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.social-links {
+	font-size: 4rem;
+}
+
+.bi-facebook {
+	transition: 0.4s;
+}
+
+.bi-facebook:hover {
+	color: #3b5998;
+}
+
+.bi-instagram {
+	transition: 0.4s;
+}
+
+.bi-instagram:hover {
+	color: #3f729b;
+}
+
+.bi-linkedin {
+	transition: 0.4s;
+}
+
+.bi-linkedin:hover {
+	color: #0072b1;
+}
+
+.card-body-price {
+	min-height: 32rem;
+	padding: 2rem;
 }
