@@ -15,6 +15,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
@@ -58,9 +62,9 @@
       <div class="carousel-inner text-light text-center">
 
         <div class="carousel-item carousel-img-one active" data-bs-interval="5000">
-          <div class=" carousel-caption h100 p-5 d-flex flex-column justify-content-end justify-content-md-center
+          <div class="carousel-caption h100 p-5 d-flex flex-column justify-content-end justify-content-md-center
           align-items-center">
-            <p class="display-2">Jak działa Program Partnerski?</p>
+            <p class="display-1">Jak działa Program Partnerski?</p>
             <p class="d-sm-block">Otwierasz sklep z odzieżą używaną we współpracy z marką Ubrania Do Oddania i zyskujesz
               na drugim obiegu. </p>
 
@@ -69,12 +73,14 @@
         </div>
 
         <div class="carousel-item carousel-img-two" data-bs-interval="7000">
-          <div
-            class="carousel-caption h100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
-            <p class="display-3">Czym jest marka Ubrania Do Oddania?</p>
-            <p class="d-sm-block">Ubrania Do Oddania to marka, która w 2018 roku rozpoczęła rewolucję na polskim rynku
-              odzieżowym. Zbiera używane ubrania, sortuje, selekcjonuje i odświeża, by dać im drugie życie. </p>
+          <div class="carousel-bg">
+            <div
+              class="carousel-caption h100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
+              <p class="display-1">Czym jest marka Ubrania Do Oddania?</p>
+              <p class="d-sm-block">Ubrania Do Oddania to marka, która w 2018 roku rozpoczęła rewolucję na polskim rynku
+                odzieżowym. Zbiera używane ubrania, sortuje, selekcjonuje i odświeża, by dać im drugie życie. </p>
 
+            </div>
           </div>
           <div class="hero-shadow"></div>
         </div>
@@ -82,7 +88,7 @@
         <div class="carousel-item carousel-img-three" data-bs-interval="6000">
           <div
             class="carousel-caption h100 p-5 d-flex flex-column justify-content-end justify-content-md-center align-items-center">
-            <p class="display-3">Jak zyskujesz na współpracy?</p>
+            <p class="display-1">Jak zyskujesz na współpracy?</p>
             <p class="d-sm-block">Biznes z marką UDO, to gwarancja stałej jakości towaru, niezależność i merytoryczne
               wsparcie. </p>
 
@@ -106,14 +112,41 @@
 
   <main>
 
+
+
+
     <div class="b-example-divider"></div>
 
-    <section class="home-boxes mb-5">
+    <div class="pp-text border border-1 shadow-lg p-3 mb-5 mt-5 bg-body rounded">
+      <h1>Na czym polega Program Partnerski?</h1>
+      <p class="fs-3">Jako nasz partner handlowy zyskujesz na towarze wysokiej jakości, który sortujemy dla ciebie na
+        ponad 30
+        kategorii. Wysyłka przygotowana jest według ustalonego harmonogramu a wymiana towaru odbywa się w zatwierdzonych
+        przez ciebie cyklach. Chętnie pomagamy także w przygotowaniu cennika. Nasz Program Partnerski to gwarancja
+        jakości usług i rzetelnej współpracy.</p>
+
+    </div>
+    <hr>
+
+    <section>
+
+
+
+      <div class="video-container py-5">
+        <div class="video ratio ratio-16x9" id="onas">
+          <iframe src="https://www.youtube.com/embed/XSgfBpMsz_Y" title="YouTube video" allowfullscreen></iframe>"
+          allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-boxes1 mb-5">
       <div class="h1text text-center" id="cozyskasz">
         <h1>Jeśli zmagasz się z..</h1>
       </div>
-      <div class="container text-center">
-        <div class="row losses">
+
+      <div class="containerhb1">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
 
 
 
@@ -121,11 +154,12 @@
 
 
 
-            <div class="mb-0"><img src="img/konkurencja.png" alt="" class="img1"></div>
+            <div class="mb-0 border border-1 shadow-lg p-3 mb-5 bg-body rounded"><img src="img/konkurencja.png" alt=""
+                class="img1"></div>
             <h2>nierówną konkurencją,
 
             </h2>
-            <p class="m-0">
+            <p class="m-0 fs-2">
               … bo tzw. “sieciówki” mogą sobie pozwolić na regularną wymianę towaru dzięki kilku lokalizacjom i często
               własnej hurtowni.</p>
 
@@ -133,11 +167,12 @@
 
           <div class="col-md-4 home-box mb-5 mb-md-0">
 
-            <div class="mb-0"><img src="img/zledostawy.png" alt="" class="img1"></div>
+            <div class="mb-0 border border-1 shadow-lg p-3 mb-5 bg-body rounded"><img src="img/zledostawy.png" alt=""
+                class="img1"></div>
             <h2>nierzetelnymi dostawcami,
 
             </h2>
-            <p class="m-0">
+            <p class="m-0 fs-2">
               … bo pierwsza dostawa często jest idealna, ale w kolejnych trafiają się problematyczne towary i to słabej
               jakości. A zwrotów nie przyjmują.</p>
 
@@ -145,20 +180,21 @@
 
           <div class="col-md-4 home-box mb-5 mb-md-0">
 
-            <div class="mb-0"><img src="img/plynnosc.png" alt="" class="img1"></div>
+            <div class="mb-0 border border-1 shadow-lg p-3 mb-5 bg-body rounded"><img src="img/plynnosc.png" alt=""
+                class="img1"></div>
             <h2>problemami z płynnością,
 
             </h2>
-            <p class="m-0">
+            <p class="m-0 fs-2">
               …bo towar trzeba kupić za gotówkę, a przecież nie wszystko się sprzeda. Pieniądze zamrożone, a klienci
               oczekują nowych dostaw.</p>
 
           </div>
-
-
-
         </div>
       </div>
+    </section>
+
+    <section class="home-boxes2">
       <div class="h1textlose text-center">
         <h1>To skorzystaj z Programu Partnerskiego i…</h1>
       </div>
@@ -169,29 +205,31 @@
 
           <div class="home-box col-md-2 mb-5 mb-md-0">
 
-            <div class="mb-4"><img src="img/tywybierasz.png" alt="" class="img2"></div>
-            <h2>Miej gwarancję stałej jakości towaru </h2>
+            <div class="mb-4 shadow-lg p-3 mb-5 bg-body rounded"><img src="img/tywybierasz.png" alt="" class="img2">
+            </div>
+            <h2>Miej gwarancję <br> stałej jakości towaru </h2>
 
           </div>
 
           <div class="col-md-2 home-box mb-5 mb-md-0">
 
-            <div class="mb-4"><img src="img/cyklicznedostawy.png" alt="" class="img2"></div>
-            <h2>Zyskaj decyzyjność <br> o asortymencie sklepu
+            <div class="mb-4 shadow-lg p-3 mb-5 bg-body rounded"><img src="img/cyklicznedostawy.png" alt=""
+                class="img2"></div>
+            <h2>Sam decyduj jak często <br> chcesz wymieniać towar
             </h2>
 
           </div>
 
           <div class="col-md-2 home-box mb-5 mb-md-0">
 
-            <div class="mb-4"><img src="img/relacja.png" alt="" class="img2"></div>
+            <div class="mb-4 shadow-lg p-3 mb-5 bg-body rounded"><img src="img/relacja.png" alt="" class="img2"></div>
             <h2>Korzystaj z pomocy w stworzeniu standardów obsługi klienta
             </h2>
           </div>
 
           <div class="col-md-2 home-box mb-5 mb-md-0">
 
-            <div class="mb-4"><img src="img/placisz.png" alt="" class="img2"></div>
+            <div class="mb-4 shadow-lg p-3 mb-5 bg-body rounded"><img src="img/placisz.png" alt="" class="img2"></div>
             <h2>Płać tylko za towar, <br> który sprzedałeś
             </h2>
 
@@ -199,8 +237,8 @@
 
           <div class="col-md-2 home-box mb-5 mb-md-0">
 
-            <div class="mb-4"><img src="img/plan.png" alt="" class="img2"></div>
-            <h2>Stań się konkurencją dużych sieci second hand
+            <div class="mb-4 shadow-lg p-3 mb-5 bg-body rounded"><img src="img/plan.png" alt="" class="img2"></div>
+            <h2>Dostosuj pakiet z oferty <br> do twojej powierzchni sklepu
             </h2>
           </div>
 
@@ -210,6 +248,8 @@
 
     </section>
 
+    <div class="section-name">Opinie o nas</div>
+
 
     <section class="opinie" id="opinie">
 
@@ -218,9 +258,10 @@
       <div class="album py-5 bg-light">
         <div class="container">
 
+
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 justify-content-center">
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm shadow-lg p-3 mb-5 bg-body rounded">
 
                 <div class="person agnieszka">
                 </div>
@@ -323,7 +364,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm shadow-lg p-3 mb-5 bg-body rounded">
 
                 <div class="person dorota">
                 </div>
@@ -429,7 +470,7 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 justify-content-center">
 
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm shadow-lg p-3 mb-5 bg-body rounded">
 
                 <div class="person marzena"></div>
 
@@ -520,7 +561,7 @@
 
 
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm shadow-lg p-3 mb-5 bg-body rounded">
 
                 <div class="person katarzyna">
                 </div>
@@ -614,11 +655,11 @@
     </section>
 
 
-    <section class="pakiety py-5" id="pakiety">
+    <section class="pakiety py-5 shadow-lg p-3 mb-5 bg-body rounded" id="pakiety">
       <div class="container py-3">
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card mb-4 rounded-3 shadow-sm shadow-lg p-3 mb-5 bg-body rounded">
               <div class="card-header py-3">
                 <h1 class="my-0 fw-normal">Model S</h1>
               </div>
@@ -636,7 +677,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card mb-4 rounded-3 shadow-sm shadow-lg p-3 mb-5 bg-body rounded">
               <div class="card-header py-3">
                 <h1 class="my-0 fw-normal">Model M</h1>
               </div>
@@ -656,7 +697,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card mb-4 rounded-3 shadow-sm shadow-lg p-3 mb-5 bg-body rounded">
               <div class="card-header py-3 ">
                 <h1 class="my-0 fw-normal">Model L</h1>
               </div>
@@ -680,14 +721,7 @@
       </div>
     </section>
 
-    <section>
-      <div class="video-container py-5">
-        <div class="video ratio ratio-16x9" id="onas">
-          <iframe src="https://www.youtube.com/embed/XSgfBpMsz_Y" title="YouTube video" allowfullscreen></iframe>"
-          allowfullscreen></iframe>
-        </div>
-      </div>
-    </section>
+
 
 
   </main>
